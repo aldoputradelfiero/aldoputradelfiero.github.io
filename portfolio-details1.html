@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Portfolio Details</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i&subset=cyrillic"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: Lonely - v4.7.0
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-lonely/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body>
+    <main id="main">
+      <!-- ======= Breadcrumbs Section ======= -->
+      <section class="breadcrumbs">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>Portfolio Details</h2>
+            <ol>
+              <li><a href="index.html">Home</a></li>
+              <li>Portfolio Details</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <!-- Breadcrumbs Section -->
+
+      <!-- ======= Portfolio Details Section ======= -->
+      <section id="portfolio-details" class="portfolio-details">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+                    <img src="assets/img/portfolio/Classify Song Genres from Audio Data.png" alt="" />
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="portfolio-info">
+                <h3>Classify Song Genres from Audio Data</h3>
+                <ul>
+                  <li><strong>Topic</strong>: Machine Learning</li>
+                  <li><strong>Programming language</strong>: Python</li>
+                  <li><strong>Packages</strong>:pPandas, seaborn</li>
+                  <li><strong>Algorithms Used</strong>: Principal Component Analysis,Logistic Regression, Decision Trees</li>
+                  <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                </ul>
+              </div>
+              <div class="portfolio-description">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Portfolio Details Section -->
+    </main>
+    <!-- End #main -->
+
+        <!-- ======= Resume Section ======= -->
+        <section id="resume" class="resume section">
+          <div class="container">
+            
+            <div class="section-title">
+              <h2>Introduction</h2>
+              <p> Over the past few years, streaming services with huge catalogs have become the primary means through which most people listen to their favorite music. But at the same time, the sheer amount of music on offer can mean users might be a bit overwhelmed when trying to look for newer music that suits their tastes.</p>
+              <p>  For this reason, streaming services have looked into means of categorizing music to allow for personalized recommendations. One method involves direct analysis of the raw audio information in a given song, scoring the raw data on a variety of metrics. Today, we'll be examining data compiled by a research group known as The Echo Nest. Our goal is to look through this dataset and classify songs as being either 'Hip-Hop' or 'Rock' - all without listening to a single one ourselves.</p>
+                <div class="section-subtitle mt-4">
+                  <h2>Data</h2>
+                  <p>we'll be examining data compiled by a research group known as The Echo Nest. A song is about more than its title, artist, and number of listens. We have another dataset that has musical features of each track such as danceability and acousticness on a scale from -1 to 1. These exist in two different files, which are in different formats - CSV and JSON. While CSV is a popular file format for denoting tabular data, JSON is another common file format in which databases often return the results of a given query.</p>
+                </div>
+                <div class="section-subtitle mt-4">
+                  <h2>Task</h2>
+                  <p>Using a dataset comprised of songs of two music genres (Hip-Hop and Rock), we will train a classifier to distinguish between the two genres based only on track information derived from Echonest (now part of Spotify). We will first make use of pandas and seaborn packages in Python for subsetting the data, aggregating information, and creating plots when exploring the data for obvious trends or factors we should be aware of when doing machine learning.</p>
+                  <p>Next, we will use the scikit-learn package to predict whether we can correctly classify a song's genre based on features such as danceability, energy, acousticness, tempo, etc. We will go over implementations of common algorithms such as PCA, logistic regression, decision trees, and so forth.
+                    </p>
+                </div>
+                <div class="section-subtitle mt-4">
+                  <h2>Summary</h2>
+                  <p>Found that my model was biased because of skewed training and test samples which I solved by standard resampling. Although balancing removed bias it had a significant hit on the performance plummeting it down by about 5%. Achieved a final accuracy of 72.2% for Decision Tree and 77.3% for Logistic Regression.</p>
+                </div>
+            </div>
+            
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
